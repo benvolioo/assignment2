@@ -27,7 +27,8 @@ public:
 
   // returns true if and only if v is a vertex in the graph
   bool isVertex(int v);
-
+  bool isPath(vector<int> path);
+  bool isWalk(vector<int> path);
   // returns true if and only if (u,v) is an edge in the graph
   // will certainly return false if neither vertex is in the graph
   bool isEdge(int u, int v);
